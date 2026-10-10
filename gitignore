@@ -1,0 +1,13 @@
+# Entornos y caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datos crudos (descargar desde Mendeley Data, ver data/README.md)
+data/*.csv
+data/*.zip
+
+# Salidas regenerables con los scripts
+resultados/predicciones/
+resultados/modelos/
