@@ -1,0 +1,22 @@
+[project]
+name = "po4-prediccion"
+version = "1.0.0"
+description = "Predicción dinámica a corto plazo de fosfato (PO4) en una PTAR con redes neuronales"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "pandas>=3.0.5",
+    "scikit-learn>=1.9.0",
+    "scipy>=1.18.1",
+    "torch>=2.13.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "po4_prediccion"
